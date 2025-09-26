@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SARO - Security Professional</title>
+    <title>Franck Cassou-Puyau - Cybersecurity Student</title>
     <style>
         :root {
             --background: #1a0f2e;
@@ -38,182 +38,6 @@
             padding: 2rem;
             position: relative;
             overflow-x: hidden;
-        }
-        
-        /* Logo container */
-        .logo-container {
-            position: absolute;
-            top: 2rem;
-            left: 2rem;
-            width: 120px;
-            height: 120px;
-            z-index: 10;
-        }
-        
-        .logo {
-            width: 100%;
-            height: 100%;
-            border-radius: 15px;
-            background: rgba(26, 15, 46, 0.8);
-            backdrop-filter: blur(10px);
-            border: 2px solid rgba(255, 107, 53, 0.3);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 
-                0 0 30px rgba(255, 107, 53, 0.4),
-                inset 0 0 20px rgba(255, 107, 53, 0.1);
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        /* Ours CSS */
-        .bear-head {
-            position: relative;
-            width: 60px;
-            height: 60px;
-        }
-        
-        .bear-face {
-            width: 40px;
-            height: 35px;
-            background: linear-gradient(135deg, #ff6b35 0%, #ff4757 50%, #a55eea 100%);
-            border-radius: 50% 50% 40% 40%;
-            position: absolute;
-            top: 15px;
-            left: 10px;
-            box-shadow: 0 0 10px rgba(255, 107, 53, 0.5);
-        }
-        
-        .bear-ears {
-            position: absolute;
-            top: 5px;
-            width: 100%;
-        }
-        
-        .ear {
-            width: 15px;
-            height: 15px;
-            background: linear-gradient(135deg, #ff6b35 0%, #ff4757 100%);
-            border-radius: 50%;
-            position: absolute;
-            box-shadow: 0 0 5px rgba(255, 107, 53, 0.3);
-        }
-        
-        .ear.left {
-            left: 8px;
-        }
-        
-        .ear.right {
-            right: 8px;
-        }
-        
-        .ear::after {
-            content: '';
-            position: absolute;
-            top: 3px;
-            left: 3px;
-            width: 9px;
-            height: 9px;
-            background: #1a0f2e;
-            border-radius: 50%;
-        }
-        
-        .eyes {
-            position: absolute;
-            top: 8px;
-            width: 100%;
-        }
-        
-        .eye {
-            width: 0;
-            height: 0;
-            position: absolute;
-            border-style: solid;
-        }
-        
-        .left-eye {
-            left: 10px;
-            border-left: 6px solid transparent;
-            border-right: 6px solid #ff6b35;
-            border-bottom: 8px solid #ff6b35;
-            transform: rotate(-15deg);
-            filter: drop-shadow(0 0 3px #ff6b35);
-        }
-        
-        .right-eye {
-            right: 10px;
-            border-left: 6px solid #ff6b35;
-            border-right: 6px solid transparent;
-            border-bottom: 8px solid #ff6b35;
-            transform: rotate(15deg);
-            filter: drop-shadow(0 0 3px #ff6b35);
-        }
-        
-        .snout {
-            position: absolute;
-            bottom: 8px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 8px;
-            height: 6px;
-            background: linear-gradient(135deg, #ff4757 0%, #a55eea 100%);
-            border-radius: 50%;
-            box-shadow: 0 0 3px rgba(255, 71, 87, 0.5);
-        }
-        
-        .snout::after {
-            content: '';
-            position: absolute;
-            top: 1px;
-            left: 3px;
-            width: 2px;
-            height: 2px;
-            background: #000;
-            border-radius: 50%;
-        }
-        
-        .mouth {
-            position: absolute;
-            bottom: 2px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 12px;
-            height: 6px;
-            border: 2px solid #ff4757;
-            border-top: none;
-            border-radius: 0 0 15px 15px;
-            box-shadow: 0 0 3px rgba(255, 71, 87, 0.3);
-        }
-        
-        .mouth::before,
-        .mouth::after {
-            content: '';
-            position: absolute;
-            top: -2px;
-            width: 0;
-            height: 0;
-            border-style: solid;
-        }
-        
-        .mouth::before {
-            left: 2px;
-            border-left: 3px solid transparent;
-            border-right: 3px solid #ff4757;
-            border-bottom: 4px solid #ff4757;
-        }
-        
-        .mouth::after {
-            right: 2px;
-            border-left: 3px solid #ff4757;
-            border-right: 3px solid transparent;
-            border-bottom: 4px solid #ff4757;
-        }
-        
-        .logo:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 40px var(--glow-orange), 0 0 60px var(--glow-purple);
         }
         
         .card {
@@ -765,13 +589,6 @@
         }
         
         @media (max-width: 500px) {
-            .logo-container {
-                top: 1rem;
-                left: 1rem;
-                width: 80px;
-                height: 80px;
-            }
-            
             .title {
                 font-size: 1.5rem;
             }
@@ -801,10 +618,6 @@
     </style>
 </head>
 <body>
-    <!-- Logo SARO -->
-    <div class="logo-container">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg==" alt="SARO Logo" class="logo" style="background: linear-gradient(135deg, #ff6b35 0%, #ff4757 50%, #a55eea 100%); display: flex; align-items: center; justify-content: center; font-weight: bold; color: white; font-size: 1.2rem;">SARO</div>
-    
     <!-- Fond animé cyberpunk -->
     <div class="cyber-bg">
         <!-- Grille cyber -->
@@ -846,11 +659,11 @@
         <!-- Code binaire qui tombe -->
         <div class="binary-rain" style="left: 2%; animation-delay: 0s;">01001000 01100001 01100011 01101011 01100101 01110010</div>
         <div class="binary-rain" style="left: 15%; animation-delay: 2s;">11010011 10101010 01010101 11001100 00110011</div>
-        <div class="binary-rain" style="left: 30%; animation-delay: 4s;">01010011 01000001 01010010 01001111 00100000</div>
+        <div class="binary-rain" style="left: 30%; animation-delay: 4s;">01000011 01111001 01100010 01100101 01110010</div>
         <div class="binary-rain" style="left: 45%; animation-delay: 1s;">11110000 10101111 01010000 11001111 10100101</div>
-        <div class="binary-rain" style="left: 60%; animation-delay: 3s;">01000011 01111001 01100010 01100101 01110010</div>
+        <div class="binary-rain" style="left: 60%; animation-delay: 3s;">01010011 01100101 01100011 01110101 01110010</div>
         <div class="binary-rain" style="left: 75%; animation-delay: 5s;">10110011 11010010 01101001 10110100 11010111</div>
-        <div class="binary-rain" style="left: 90%; animation-delay: 6s;">01010011 01100101 01100011 01110101 01110010</div>
+        <div class="binary-rain" style="left: 90%; animation-delay: 6s;">01000110 01110010 01100001 01101110 01100011</div>
     </div>
     
     <div class="card">
@@ -920,9 +733,3 @@
         <a href="#" class="social-link">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-            </svg>
-        </a>
-    </div>
-
-</body>
-</html>
